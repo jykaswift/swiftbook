@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lesson_11_25" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BtZ-nx-6zu">
+                                <rect key="frame" x="65" y="122" width="150" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="O7H-hs-Sky">
+                                <rect key="frame" x="223" y="116" width="94" height="32"/>
+                                <connections>
+                                    <action selector="stepperTapped:" destination="BYZ-38-t0r" eventType="valueChanged" id="PIM-Ea-cGN"/>
+                                </connections>
+                            </stepper>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7aR-5o-4Gm">
+                                <rect key="frame" x="40" y="189" width="312" height="461"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">When the user taps in an editable text view, that text view becomes the first responder and automatically asks the system to display the associated keyboard. Because the appearance of the keyboard has the potential to obscure portions of your user interface, it’s up to you to make sure that doesn’t happen by repositioning any views that might be obscured. Some system views, like table views, help you by scrolling the first responder into view automatically. If the first responder is at the bottom of the scrolling region, however, you may still need to resize or reposition the scroll view itself to ensure the first responder is visible.
+It’s your application’s responsibility to dismiss the keyboard at the time of your choosing. You might dismiss the keyboard in response to a specific user action, such as the user tapping a particular button in your user interface. To dismiss the keyboard, send the resignFirstResponder() message to the text view that’s currently the first responder. Doing so causes the text view object to end the current editing session (with the delegate object’s consent) and hide the keyboard.
+The appearance of the keyboard itself can be customized using the properties provided by the UITextInputTraits protocol. Text view objects implement this protocol and support the properties it defines. You can use these properties to specify the type of keyboard (ASCII, Numbers, URL, Email, and others) to display. You can also configure the basic text entry behavior of the keyboard, such as whether it supports automatic capitalization and correction of the text.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="a2s-Gl-mDB">
+                                <rect key="frame" x="186" y="409.66666666666669" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="MfV-7N-iiL">
+                                <rect key="frame" x="40" y="189" width="312" height="4"/>
+                            </progressView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="BtZ-nx-6zu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="63" id="D9C-OT-EaN"/>
+                            <constraint firstItem="a2s-Gl-mDB" firstAttribute="centerX" secondItem="7aR-5o-4Gm" secondAttribute="centerX" id="EiG-zH-81c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="O7H-hs-Sky" secondAttribute="trailing" constant="76" id="Gym-nP-gOr"/>
+                            <constraint firstItem="BtZ-nx-6zu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="VlR-ei-MAp"/>
+                            <constraint firstItem="MfV-7N-iiL" firstAttribute="top" secondItem="7aR-5o-4Gm" secondAttribute="top" id="WEu-GA-iDD"/>
+                            <constraint firstItem="MfV-7N-iiL" firstAttribute="width" secondItem="7aR-5o-4Gm" secondAttribute="width" id="c9U-Nc-3si"/>
+                            <constraint firstItem="7aR-5o-4Gm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="cJH-xr-B9U"/>
+                            <constraint firstItem="7aR-5o-4Gm" firstAttribute="top" secondItem="O7H-hs-Sky" secondAttribute="bottom" constant="41" id="hYy-g3-2GR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7aR-5o-4Gm" secondAttribute="trailing" constant="41" id="kgq-bY-Ykl"/>
+                            <constraint firstItem="O7H-hs-Sky" firstAttribute="leading" relation="lessThanOrEqual" secondItem="BtZ-nx-6zu" secondAttribute="trailing" constant="8" symbolic="YES" id="l0i-P9-fmV"/>
+                            <constraint firstItem="MfV-7N-iiL" firstAttribute="centerX" secondItem="7aR-5o-4Gm" secondAttribute="centerX" id="mRI-6U-OQJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7aR-5o-4Gm" secondAttribute="bottom" constant="168" id="nde-Em-ASz"/>
+                            <constraint firstItem="O7H-hs-Sky" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="t3e-9V-cPu"/>
+                            <constraint firstItem="a2s-Gl-mDB" firstAttribute="centerY" secondItem="7aR-5o-4Gm" secondAttribute="centerY" id="tgs-cu-XY9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="a2s-Gl-mDB" id="7I5-ec-qMA"/>
+                        <outlet property="countLabel" destination="BtZ-nx-6zu" id="GJk-Pe-lB2"/>
+                        <outlet property="progressView" destination="MfV-7N-iiL" id="6Jk-A2-RyU"/>
+                        <outlet property="stepper" destination="O7H-hs-Sky" id="nQj-Ae-L5O"/>
+                        <outlet property="textView" destination="7aR-5o-4Gm" id="eAy-Y5-DFP"/>
+                        <outlet property="textViewBottomConstraint" destination="nde-Em-ASz" id="mlF-UT-zHK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="78.625954198473281" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

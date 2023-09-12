@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyFirstApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="tbP-PK-AWS">
+                                <rect key="frame" x="69.666666666666686" y="104" width="275" height="82.333333333333314"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Радуйся каждому дню!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6dK-Or-dPG">
+                                        <rect key="frame" x="0.0" y="0.0" width="275" height="28.666666666666668"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выбери свой день рождения:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Zfk-hK-VBK">
+                                        <rect key="frame" x="25.666666666666671" y="53.66666666666665" width="223.66666666666663" height="28.666666666666664"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="Ydb-sY-3no">
+                                <rect key="frame" x="47" y="211" width="320" height="216"/>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZ7-x4-mTq">
+                                <rect key="frame" x="147" y="447" width="120" height="39"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="Bly-A2-2NZ"/>
+                                    <constraint firstAttribute="height" constant="39" id="Nid-T4-CEd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Результат"/>
+                                <connections>
+                                    <action selector="getDayPassed" destination="BYZ-38-t0r" eventType="touchUpInside" id="gic-IQ-deR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ты наслаждаешься жизнью уже ... дней" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="0" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eib-BX-pzC">
+                                <rect key="frame" x="80" y="505.99999999999994" width="254" height="38.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="IZ7-x4-mTq" firstAttribute="top" secondItem="Ydb-sY-3no" secondAttribute="bottom" constant="20" id="6bv-l9-RXC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eib-BX-pzC" secondAttribute="trailing" constant="80" id="7JS-YS-INC"/>
+                            <constraint firstItem="Ydb-sY-3no" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9cC-on-E0T"/>
+                            <constraint firstItem="IZ7-x4-mTq" firstAttribute="top" secondItem="Ydb-sY-3no" secondAttribute="bottom" constant="20" id="DTj-DA-c8w"/>
+                            <constraint firstItem="tbP-PK-AWS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZgL-zi-2mE"/>
+                            <constraint firstItem="eib-BX-pzC" firstAttribute="top" secondItem="IZ7-x4-mTq" secondAttribute="bottom" constant="20" id="c6X-8Z-6qP"/>
+                            <constraint firstItem="eib-BX-pzC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="dwW-xX-pcX"/>
+                            <constraint firstItem="tbP-PK-AWS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="gRG-w4-0Vn"/>
+                            <constraint firstItem="Ydb-sY-3no" firstAttribute="top" secondItem="tbP-PK-AWS" secondAttribute="bottom" constant="24.670000000000002" id="oVu-oz-Lvn"/>
+                            <constraint firstItem="IZ7-x4-mTq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wxB-Xx-1jn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="birtdayDatePicker" destination="Ydb-sY-3no" id="ddU-RH-lRv"/>
+                        <outlet property="daysLivedLabel" destination="eib-BX-pzC" id="cxQ-F0-umS"/>
+                        <outlet property="resultButton" destination="IZ7-x4-mTq" id="6Np-LY-b4k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="107.69230769230769" y="-29.857819905213269"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
