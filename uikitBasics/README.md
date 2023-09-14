@@ -1,12 +1,12 @@
 # Основы UIKit
 
  1. [SegmentedControl](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10)   
- 2. [Slider](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10%29) 
+ 2. [ Slider ](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10%29) 
  3. [UIPickerView](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10%29)
  4. [TextField](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10%29)
  5. [Button](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10%29)  
- 6. [DatePicker](%28https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10%29)   
- 7. [Switch](8https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10%29)
+ 6. [DatePicker](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10%29)   
+ 7. [Switch](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10%29)
  8. [Activity Indicator](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/Lessons%2010-12)
  9. [Progress View](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/Lessons%2010-12)
  10. [Stepper](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/Lessons%2010-12)
