@@ -1,6 +1,8 @@
 # Основы UIKit
 
-![1](https://github.com/jykaswift/swiftbook/blob/master/uikitBasics/lesson%201-10/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-14%20%D0%B2%2018.13.45.png?raw=true =200x) - **[Reference](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10)**
+![1](https://github.com/jykaswift/swiftbook/blob/master/uikitBasics/lesson%201-10/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-14%20%D0%B2%2018.13.45.png?raw=true =200x)
+
+- **[Reference](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10)**
 
 ![enter image description here](https://github.com/jykaswift/swiftbook/blob/master/uikitBasics/Lessons%2010-12/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-14%20%D0%B2%2018.19.06.png?raw=true =200x) -**[Reference](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/Lessons%2010-12)**
 
