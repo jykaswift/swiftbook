@@ -7,28 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F91FA7902AADFC7900A810CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FA78F2AADFC7900A810CA /* AppDelegate.swift */; };
-		F91FA7922AADFC7900A810CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FA7912AADFC7900A810CA /* SceneDelegate.swift */; };
-		F91FA7942AADFC7900A810CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91FA7932AADFC7900A810CA /* ViewController.swift */; };
-		F91FA7972AADFC7900A810CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91FA7952AADFC7900A810CA /* Main.storyboard */; };
-		F91FA7992AADFC7900A810CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91FA7982AADFC7900A810CA /* Assets.xcassets */; };
-		F91FA79C2AADFC7900A810CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91FA79A2AADFC7900A810CA /* LaunchScreen.storyboard */; };
-		F9DEBD4F2AB0FEE500251AF3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F91FA79D2AADFC7900A810CA /* Info.plist */; };
+		F9BCAEC72AB26702006C5634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BCAEC62AB26702006C5634 /* AppDelegate.swift */; };
+		F9BCAEC92AB26702006C5634 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BCAEC82AB26702006C5634 /* SceneDelegate.swift */; };
+		F9BCAECB2AB26702006C5634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BCAECA2AB26702006C5634 /* ViewController.swift */; };
+		F9BCAECE2AB26702006C5634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BCAECC2AB26702006C5634 /* Main.storyboard */; };
+		F9BCAED02AB26703006C5634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BCAECF2AB26703006C5634 /* Assets.xcassets */; };
+		F9BCAED32AB26703006C5634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BCAED12AB26703006C5634 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F91FA78C2AADFC7900A810CA /* Lesson1-10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson1-10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F91FA78F2AADFC7900A810CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F91FA7912AADFC7900A810CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F91FA7932AADFC7900A810CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F91FA7962AADFC7900A810CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F91FA7982AADFC7900A810CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F91FA79B2AADFC7900A810CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F91FA79D2AADFC7900A810CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BCAEC32AB26702006C5634 /* GesterRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesterRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BCAEC62AB26702006C5634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9BCAEC82AB26702006C5634 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9BCAECA2AB26702006C5634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9BCAECD2AB26702006C5634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9BCAECF2AB26703006C5634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9BCAED22AB26703006C5634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9BCAED42AB26703006C5634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F91FA7892AADFC7900A810CA /* Frameworks */ = {
+		F9BCAEC02AB26702006C5634 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F91FA7832AADFC7900A810CA = {
+		F9BCAEBA2AB26702006C5634 = {
 			isa = PBXGroup;
 			children = (
-				F91FA78E2AADFC7900A810CA /* Lesson1-10 */,
-				F91FA78D2AADFC7900A810CA /* Products */,
+				F9BCAEC52AB26702006C5634 /* GesterRecognizer */,
+				F9BCAEC42AB26702006C5634 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F91FA78D2AADFC7900A810CA /* Products */ = {
+		F9BCAEC42AB26702006C5634 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F91FA78C2AADFC7900A810CA /* Lesson1-10.app */,
+				F9BCAEC32AB26702006C5634 /* GesterRecognizer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F91FA78E2AADFC7900A810CA /* Lesson1-10 */ = {
+		F9BCAEC52AB26702006C5634 /* GesterRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				F91FA78F2AADFC7900A810CA /* AppDelegate.swift */,
-				F91FA7912AADFC7900A810CA /* SceneDelegate.swift */,
-				F91FA7932AADFC7900A810CA /* ViewController.swift */,
-				F91FA7952AADFC7900A810CA /* Main.storyboard */,
-				F91FA7982AADFC7900A810CA /* Assets.xcassets */,
-				F91FA79A2AADFC7900A810CA /* LaunchScreen.storyboard */,
-				F91FA79D2AADFC7900A810CA /* Info.plist */,
+				F9BCAEC62AB26702006C5634 /* AppDelegate.swift */,
+				F9BCAEC82AB26702006C5634 /* SceneDelegate.swift */,
+				F9BCAECA2AB26702006C5634 /* ViewController.swift */,
+				F9BCAECC2AB26702006C5634 /* Main.storyboard */,
+				F9BCAECF2AB26703006C5634 /* Assets.xcassets */,
+				F9BCAED12AB26703006C5634 /* LaunchScreen.storyboard */,
+				F9BCAED42AB26703006C5634 /* Info.plist */,
 			);
-			path = "Lesson1-10";
+			path = GesterRecognizer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F91FA78B2AADFC7900A810CA /* Lesson1-10 */ = {
+		F9BCAEC22AB26702006C5634 /* GesterRecognizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F91FA7A02AADFC7900A810CA /* Build configuration list for PBXNativeTarget "Lesson1-10" */;
+			buildConfigurationList = F9BCAED72AB26703006C5634 /* Build configuration list for PBXNativeTarget "GesterRecognizer" */;
 			buildPhases = (
-				F91FA7882AADFC7900A810CA /* Sources */,
-				F91FA7892AADFC7900A810CA /* Frameworks */,
-				F91FA78A2AADFC7900A810CA /* Resources */,
+				F9BCAEBF2AB26702006C5634 /* Sources */,
+				F9BCAEC02AB26702006C5634 /* Frameworks */,
+				F9BCAEC12AB26702006C5634 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Lesson1-10";
-			productName = UISegmentedControl;
-			productReference = F91FA78C2AADFC7900A810CA /* Lesson1-10.app */;
+			name = GesterRecognizer;
+			productName = GesterRecognizer;
+			productReference = F9BCAEC32AB26702006C5634 /* GesterRecognizer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F91FA7842AADFC7900A810CA /* Project object */ = {
+		F9BCAEBB2AB26702006C5634 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					F91FA78B2AADFC7900A810CA = {
+					F9BCAEC22AB26702006C5634 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = F91FA7872AADFC7900A810CA /* Build configuration list for PBXProject "Lesson1-10" */;
+			buildConfigurationList = F9BCAEBE2AB26702006C5634 /* Build configuration list for PBXProject "GesterRecognizer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = F91FA7832AADFC7900A810CA;
-			productRefGroup = F91FA78D2AADFC7900A810CA /* Products */;
+			mainGroup = F9BCAEBA2AB26702006C5634;
+			productRefGroup = F9BCAEC42AB26702006C5634 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F91FA78B2AADFC7900A810CA /* Lesson1-10 */,
+				F9BCAEC22AB26702006C5634 /* GesterRecognizer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F91FA78A2AADFC7900A810CA /* Resources */ = {
+		F9BCAEC12AB26702006C5634 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9DEBD4F2AB0FEE500251AF3 /* Info.plist in Resources */,
-				F91FA79C2AADFC7900A810CA /* LaunchScreen.storyboard in Resources */,
-				F91FA7992AADFC7900A810CA /* Assets.xcassets in Resources */,
-				F91FA7972AADFC7900A810CA /* Main.storyboard in Resources */,
+				F9BCAED32AB26703006C5634 /* LaunchScreen.storyboard in Resources */,
+				F9BCAED02AB26703006C5634 /* Assets.xcassets in Resources */,
+				F9BCAECE2AB26702006C5634 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F91FA7882AADFC7900A810CA /* Sources */ = {
+		F9BCAEBF2AB26702006C5634 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F91FA7942AADFC7900A810CA /* ViewController.swift in Sources */,
-				F91FA7902AADFC7900A810CA /* AppDelegate.swift in Sources */,
-				F91FA7922AADFC7900A810CA /* SceneDelegate.swift in Sources */,
+				F9BCAECB2AB26702006C5634 /* ViewController.swift in Sources */,
+				F9BCAEC72AB26702006C5634 /* AppDelegate.swift in Sources */,
+				F9BCAEC92AB26702006C5634 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F91FA7952AADFC7900A810CA /* Main.storyboard */ = {
+		F9BCAECC2AB26702006C5634 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F91FA7962AADFC7900A810CA /* Base */,
+				F9BCAECD2AB26702006C5634 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F91FA79A2AADFC7900A810CA /* LaunchScreen.storyboard */ = {
+		F9BCAED12AB26703006C5634 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F91FA79B2AADFC7900A810CA /* Base */,
+				F9BCAED22AB26703006C5634 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F91FA79E2AADFC7900A810CA /* Debug */ = {
+		F9BCAED52AB26703006C5634 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		F91FA79F2AADFC7900A810CA /* Release */ = {
+		F9BCAED62AB26703006C5634 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,7 +280,7 @@
 			};
 			name = Release;
 		};
-		F91FA7A12AADFC7900A810CA /* Debug */ = {
+		F9BCAED82AB26703006C5634 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -290,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Lesson1-10/Info.plist";
+				INFOPLIST_FILE = GesterRecognizer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -301,18 +299,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jykaswift.UISegmentedControl;
+				PRODUCT_BUNDLE_IDENTIFIER = jykaswift.GesterRecognizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F91FA7A22AADFC7900A810CA /* Release */ = {
+		F9BCAED92AB26703006C5634 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Lesson1-10/Info.plist";
+				INFOPLIST_FILE = GesterRecognizer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -331,39 +326,36 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jykaswift.UISegmentedControl;
+				PRODUCT_BUNDLE_IDENTIFIER = jykaswift.GesterRecognizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F91FA7872AADFC7900A810CA /* Build configuration list for PBXProject "Lesson1-10" */ = {
+		F9BCAEBE2AB26702006C5634 /* Build configuration list for PBXProject "GesterRecognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F91FA79E2AADFC7900A810CA /* Debug */,
-				F91FA79F2AADFC7900A810CA /* Release */,
+				F9BCAED52AB26703006C5634 /* Debug */,
+				F9BCAED62AB26703006C5634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F91FA7A02AADFC7900A810CA /* Build configuration list for PBXNativeTarget "Lesson1-10" */ = {
+		F9BCAED72AB26703006C5634 /* Build configuration list for PBXNativeTarget "GesterRecognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F91FA7A12AADFC7900A810CA /* Debug */,
-				F91FA7A22AADFC7900A810CA /* Release */,
+				F9BCAED82AB26703006C5634 /* Debug */,
+				F9BCAED92AB26703006C5634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F91FA7842AADFC7900A810CA /* Project object */;
+	rootObject = F9BCAEBB2AB26702006C5634 /* Project object */;
 }
