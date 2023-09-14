@@ -1,8 +1,8 @@
 # Основы UIKit
 
-![](https://github.com/jykaswift/swiftbook/blob/master/uikitBasics/lesson%201-10/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-14%20%D0%B2%2018.13.45.png?raw=true) { width=50% } - **[Reference](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10)**
+![](https://github.com/jykaswift/swiftbook/blob/master/uikitBasics/lesson%201-10/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-14%20%D0%B2%2018.13.45.png?raw=true) - **[Reference](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/lesson%201-10)**
 
-![enter image description here](https://github.com/jykaswift/swiftbook/blob/master/uikitBasics/Lessons%2010-12/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-14%20%D0%B2%2018.19.06.png?raw=true) { width=50% } -**[Reference](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/Lessons%2010-12)**
+![enter image description here](https://github.com/jykaswift/swiftbook/blob/master/uikitBasics/Lessons%2010-12/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-14%20%D0%B2%2018.19.06.png?raw=true) -**[Reference](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/Lessons%2010-12)**
 
 
 ![enter image description here](https://github.com/jykaswift/swiftbook/blob/master/uikitBasics/ArtCover%20%28UITableView%20-%20UIimage%29%20L13/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-14%20%D0%B2%2018.21.29.png?raw=true) -**[Reference](https://github.com/jykaswift/swiftbook/tree/master/uikitBasics/ArtCover%20%28UITableView%20-%20UIimage%29%20L13)**
